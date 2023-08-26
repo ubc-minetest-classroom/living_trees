@@ -182,7 +182,7 @@ function living_trees.register_tree(tree)
 
     minetest.register_node("living_trees:" .. tree.name .. "_sapling", {
         description = tree.name .. "sapling",
-        tiles = { "Sapling.png" },
+        tiles = { "default_sapling.png" },
         paramtype = "light",
         drawtype = "plantlike",
         paramtype2 = "meshoptions",
